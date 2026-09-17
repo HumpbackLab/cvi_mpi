@@ -1,0 +1,30 @@
+*.d
+*.o
+*.a
+*.so
+*.dep
+*.dwo
+
+# output dirs (top level only: a bare "lib"/"bin"/"include" would also
+# shadow tracked source dirs such as modules/bin/ and modules/*/include/)
+/lib/
+/tags
+
+# asan builds
+*_asan
+
+# sample executables
+sample/audio/sample_audio
+sample/region/sample_region
+sample/venc/sample_vcodec
+sample/venc/sample_venc
+sample/vdec/sample_vdec
+sample/vio/sample_vio
+sample/vdecvo/sample_vdecvo
+sample/sample_ir_auto/sample_ir_auto
+sample/sensor_test/sample_sensor_test
+sample/sample_panel/sample_panel
+sample/sample_panel/lt9611/lt9611
+
+# separate repo, pulled in and built by the SDK
+component/isp
