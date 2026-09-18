@@ -175,6 +175,7 @@ typedef enum _PIC_SIZE_E {
 	PIC_3840x8640,
 	PIC_7688x1124,
 	PIC_640x480,
+	PIC_640x400,
 	PIC_479P, /* 632 * 479 */
 	PIC_400x400,
 	PIC_288P, /* 384 * 288 */
